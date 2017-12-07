@@ -1,3 +1,5 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/sunnyRao7/test2/'], pipelineTriggers([upstream('test1, ')])])
+
 pipeline {
     agent any 
 
